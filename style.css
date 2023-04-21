@@ -63,6 +63,16 @@
   color: #3a3A3a;
 }
 
+.block__image-btn {
+  height: 2em;
+  transform: rotateZ(45deg);
+  transition: transform 200ms ease-in;
+}
+
+.block__image-btn:hover {
+  transform: rotateZ(0);
+}
+
 /* Heading */
 
 .block__title {
